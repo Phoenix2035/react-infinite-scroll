@@ -5,58 +5,21 @@
 }
 
 .container {
-  width: 100%;
+  width: 30%;
   max-width: 1000px;
-  margin: 20px auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
-}
-
-.card {
-  width: 100%;
-  max-width: 318px;
-  padding: 20px;
-  background-color: #373b56;
-  color: #fff;
-  margin: 10px 0;
-  user-select: none;
-}
-
-.card-id {
-  width: 40px;
-  height: 40px;
-  border: 2px solid #fff;
-  border-radius: 50%;
   display: flex;
+  flex-direction: column;
+  margin: 0 auto;
 }
 
-.card-id span {
-  margin: auto;
-  font-size: 17px;
+.container input {
+  padding: 1rem;
+  margin: 0.5rem 0;
+  font-size: large;
 }
 
-p {
-  margin: 15px 0 0 0;
-  font-size: 17px;
-}
-
-.btn {
-  text-align: center;
-}
-
-button {
-  width: 50%;
-  padding: 16px 0;
-  margin: 10px 0 20px 0;
-  background-color: #373b56;
-  color: #fff;
-  font-size: 18px;
-  border-radius: 6px;
-  cursor: pointer;
-  border: none;
-  outline: none;
-}
-
-button:hover {
-  opacity: 0.9;
+.container div {
+  font-size: large;
+  margin: 0.2rem 0;
+  user-select: none;
 }
